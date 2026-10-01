@@ -39,7 +39,7 @@ pipeline {
         stage('Deploy to Vercel') {
             steps {
                 script {
-                    sh 'day-la-lenh-loi-co-tinh'
+                    // sh 'day-la-lenh-loi-co-tinh'
                     // Thêm tham số --name để ép tên project thành chữ thường, khắc phục lỗi Vercel
                     sh 'npx vercel --token ${VERCEL_TOKEN} --prod --yes --name ${VERCEL_PROJECT_NAME}'
                 }
