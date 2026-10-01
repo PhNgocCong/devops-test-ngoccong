@@ -5,7 +5,7 @@ pipeline {
         VERCEL_TOKEN = credentials('VERCEL_TOKEN')
         TELEGRAM_BOT_TOKEN = credentials('TELEGRAM_BOT_TOKEN')
         TELEGRAM_CHAT_ID = credentials('TELEGRAM_CHAT_ID')
-        REPO_NAME = "GioiThieuBanThan" 
+        REPO_NAME = "devops-test-ngoccong" 
         VERCEL_PROJECT_NAME = "gioi-thieu-ngoccong" // Tên viết thường để sửa lỗi Vercel
         BRANCH_NAME = "main"
     }
