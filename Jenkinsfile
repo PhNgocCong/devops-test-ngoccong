@@ -40,7 +40,7 @@ pipeline {
             steps {
                 script {
                     // Mở comment dòng dưới đây nếu bạn muốn cố ý tạo lỗi để lấy điểm Debug
-                    // sh 'day-la-lenh-loi-co-tinh'
+                    sh 'day-la-lenh-loi-co-tinh'
                     
                     // Thêm tham số --name để ép tên project thành chữ thường, khắc phục lỗi Vercel
                     sh 'npx vercel --token ${VERCEL_TOKEN} --prod --yes --name ${VERCEL_PROJECT_NAME}'
